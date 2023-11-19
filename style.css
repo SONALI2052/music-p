@@ -7,8 +7,8 @@
 body {
   background-image: linear-gradient(
     0deg,
-    rgba(247, 247, 247, 1) 23.8%,
-    rgba(252, 221, 221, 1) 92%
+    rgb(247, 247, 247) 23.8%,
+    rgb(184, 35, 35) 92%
   );
   height: 100vh;
   display: flex;
@@ -20,9 +20,9 @@ body {
 }
 
 .music-container {
-  background-color: #fff;
+  background-color: #ab3737;
   border-radius: 15px;
-  box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+  box-shadow: 0 20px 20px 0 rgba(187, 63, 63, 0.6);
   display: flex;
   padding: 20px 30px;
   position: relative;
@@ -37,7 +37,7 @@ body {
 
 .img-container::after {
   content: '';
-  background-color: #fff;
+  background-color: #9d2a2a;
   border-radius: 50%;
   position: absolute;
   bottom: 100%;
